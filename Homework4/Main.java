@@ -53,7 +53,7 @@ class GraduateStudent extends Student{
 }
 public class Main {
     public static void main(String[] args) {
-        GraduateStudent graduateStudent = new GraduateStudent("한상훈", new int[]{95,92,85},"지능정보통신공학");
+        GraduateStudent graduateStudent = new GraduateStudent("한상훈", new int[]{95,92,88},"지능정보통신공학");
         graduateStudent.printInfo();
     }
 }
