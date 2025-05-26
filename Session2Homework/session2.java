@@ -5,7 +5,6 @@ class Student {
     int age ;
     int studentId ;
 
-
     public Student(String name, int age, int studentId) {
         this.name = name;
         this.age = age;
@@ -26,7 +25,7 @@ class Student {
 
 public class session2 {
     public static void main(String[] args) {
-        Student student1 = new Student();
+        Student student1 = new Student(); //앞 student는 클래스 뒤 student는 생성자
         student1.introduce();
 
         Student student2 = new Student("한상훈",24,21102088); //다른 생성자 호출

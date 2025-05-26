@@ -9,7 +9,7 @@ class  Student{
         this.Scores = Scores;
     }
 
-    public int sumScore() {
+    int sumScore() {
         int sum = 0;
         for (int i = 0 ; i < Scores.length ; i++) {
             sum += Scores[i];
